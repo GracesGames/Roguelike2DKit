@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% seo %}
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="{{ "/" | relative_url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <!--<p class="view"><a href="{{ 'features' | relative_url}}">Features</a></p>-->
+        <!--<p class="view"><a href="{{ 'versions' | relative_url}}">Versions</a></p>-->
+        <!--<p class="view"><a href="{{ 'documentation' | relative_url}}">Documentation</a></p>-->
+        <!--<p class="view"><a href="{{ 'faq' | relative_url}}">FAQ</a></p>-->
+        <p class="view"><a href="{{ 'credits' | relative_url}}">Credits</a></p>
+
+        <br/>
+        <h4 class="view">Share</h4>
+        <ul>
+            <li><a href="https://twitter.com/intent/tweet?text={{ site.title }}&url={{ site.url }}{{ site.baseurl }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="noreferrer" target="_blank" title="Share on Twitter" style="font-size: 14px"><i class="fab fa-fw fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}" rel="noreferrer" target="_blank" title="Share on Facebook" style="font-size: 14px"><i class="fab fa-fw fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}" rel="noreferrer" target="_blank" title="Share on Google+" style="font-size: 14px"><i class="fab fa-fw fa-google-plus fa-2x"></i></a></li>
+        </ul>
+        <h4 class="view">Contact</h4>
+        <ul>
+            <li><a aria-label="mail" href="mailto:{{ site.email }}" style="font-size: 14px"><i class="fa fa-fw fa-envelope fa-2x" ></i></a></li>
+            <li><a aria-label="discord" href="https://discord.gg/DBwFAES" style="font-size: 14px"><i class="fab fa-fw fa-discord fa-2x"></i></a></li>
+            <li><a aria-label="github" href="{{ site.github.repository_url }}" style="font-size: 14px"><i class="fab fa-fw fa-github fa-2x"></i></a></li>
+        </ul>
+
+        {% if site.github.is_project_page %}
+        <div style="text-align: center"><a href="https://GracesGames.GitHub.io"><img src="{{ site.baseurl }}/assets/images/GG-logo-square.png" alt="Graces-Games-Logo" width="40%"></a><p style="font-weight: bold">Graces Games</p></div>
+        {% endif %}
+    </header>
+    <section>
+
+        {{ content }}
+
+    </section>
+    <footer>
+        <!--{% if site.github.is_project_page %}-->
+        <!--<p class="view"><a href="{{ site.github.repository_url }}">GitHub Project Repository-->
+            <!--<small>{{ github_name }}</small>-->
+        <!--</a></p>-->
+        <!--{% endif %}-->
+
+        <!--{% if site.github.is_user_page %}-->
+        <!--<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>-->
+        <!--{% endif %}-->
+    </footer>
+</div>
+<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+{% if site.google_analytics %}
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}
+</body>
+</html>
