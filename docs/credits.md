@@ -10,6 +10,10 @@ permalink: /credits/
 
 Many thanks to:
 
-**Sprites:**
+**Sprites and Sound Effects:**
 
 [Kenney](https://www.kenney.nl/)
+
+**Music:**
+
+[Juhani Junkala](https://juhanijunkala.com/)
