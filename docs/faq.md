@@ -16,9 +16,9 @@ Other questions? Send an [email][mail], join [Discord][discord] or create a [Git
 
 __Possible Fix:__ [pull request](https://github.com/EpicGames/UnrealEngine/pull/5354), which in currently in review. Hopefully it will be merged and backported to earlier versions of the engine.
  
-__(Temporary) Workaround:__ currently the Rogulike 2D Kit requires a SetupRoom and PlayRoom Tile Map for each playable room. The PlayRooms are duplicates of the matching SetupRooms, but have all the layers that should be 'Hidden in Game' removed. 
+__(Temporary) Workaround:__ currently the Rogulike 2D Kit requires a RoomPair (structure), consisting of a SetupRoom and PlayRoom Tile Map, for each playable room. The PlayRooms are duplicates of the matching SetupRooms, but have all the layers that should be 'Hidden in Game' removed. 
 
-I suggest creating all the SetupRooms first and when complete, duplicating the SetupRooms to PlayRooms and removing the obsolete layers. After that add the matching RoomPairs (structure) to the Game Mode for play your rooms.
+I suggest creating all the SetupRooms first and when complete, duplicating the SetupRooms to PlayRooms and removing the obsolete layers. After that add the matching RoomPairs to the BP_TileMapRoom for play your rooms.
 
 [mail]: mailto:contact@gracesgames.com
 [discord]: https://discord.gg/DBwFAES
