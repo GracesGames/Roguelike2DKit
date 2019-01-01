@@ -36,6 +36,7 @@ __Enemies__
 * Custom property examples:
     * Health
     * Score
+    * Projectile damage
     * Collision damage
     * Speed
 
