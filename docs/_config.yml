@@ -20,7 +20,7 @@ baseurl: "/Roguelike2DKit" # the subpath of your site, e.g. /blog
 url: "https://gracesgames.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 author: Graces Games
-email: contact@gracesgames.com
+email: GracesGamesBV@gmail.com
 github_username:  GracesGames
 
 google_analytics: #UA-99027396-7
