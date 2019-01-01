@@ -8,7 +8,11 @@ Project will be maintained, so feel free to get in touch to suggest changes, fea
 
 ## Features include:
 
-Work in Progress
+- Different types of enemies, pickups and weapons
+- Simply create rooms using tile maps and tile sets (drag and drop)
+- Easy to create and modify enemies and powerups using data tables
+- Systems for health, player statistics, score and save/load functionality
+- And much more
 
 For a list of features, documentation and more please see the [website](https://gracesgames.github.io/Roguelike2DKit/)
 
