@@ -4,6 +4,9 @@ layout: default
 
 # Roguelike 2D Kit
 
+<iframe src="https://widgets.gamejolt.com/package/v1?key=i2dzMirW&theme=light" frameborder="0" width="100%" height="170"></iframe>  
+<br/>
+
 The Roguelike 2D Kit is an easy to use template for creating top down roguelike type of games in 2D!
 
 Supports PC and mobile platforms.  
