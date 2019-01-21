@@ -20,6 +20,6 @@ __(Temporary) Workaround:__ currently the Rogulike 2D Kit requires a RoomPair (s
 
 I suggest creating all the SetupRooms first and when complete, duplicating the SetupRooms to PlayRooms and removing the obsolete layers. After that add the matching RoomPairs to the BP_TileMapRoom for play your rooms.
 
-[mail]: mailto:contact@gracesgames.com
+[mail]: mailto:gracesgamesbv@gmail.com
 [discord]: https://discord.gg/DBwFAES
-[github-issue]: https://github.com/GracesGames/SpaceShooter2DKit/issues
+[github-issue]: https://github.com/GracesGames/Roguelike2DKit/issues

@@ -6,6 +6,7 @@ layout: default
 
 <iframe src="https://widgets.gamejolt.com/package/v1?key=i2dzMirW&theme=light" frameborder="0" width="100%" height="170"></iframe>  
 <br/>
+Available in the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/roguelike-2d-kit)
 
 The Roguelike 2D Kit is an easy to use template for creating top down roguelike type of games in 2D!
 
@@ -24,6 +25,6 @@ __Features include:__
 - Systems for health, player statistics, score and save/load functionality
 - And much more
 
-For a complete overview, see the [Features](https://gracesgames.github.io/Roguelike2DKit/features/) page
+For a complete overview, see the [Features](https://gracesgames.com/Roguelike2DKit/features/) page
 
 ![FeaturedImage]({{ "/assets/images/FeaturedImage.png" | absolute_url }})

@@ -12,11 +12,11 @@ Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub is
 
 ### Version 1.0.0
 
-##### Release date: TBD
+##### Release date: 21-01-2019
 
 * First release
 
 
-[mail]: mailto:contact@gracesgames.com
+[mail]: mailto:gracesgamesbv@gmail.com
 [discord]: https://discord.gg/DBwFAES
-[github-issue]: https://github.com/GracesGames/SpaceShooter2DKit/issues
+[github-issue]: https://github.com/GracesGames/Roguelike2DKit/issues
