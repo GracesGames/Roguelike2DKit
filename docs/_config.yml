@@ -17,7 +17,7 @@ title: Roguelike 2D Kit
 description: >- # this means to ignore newlines until "baseurl:"
   Roguelike 2D Kit for Unreal Engine 4
 baseurl: "/Roguelike2DKit" # the subpath of your site, e.g. /blog
-url: "https://gracesgames.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gracesgames.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 author: Graces Games
 email: GracesGamesBV@gmail.com
