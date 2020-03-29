@@ -21,7 +21,7 @@ __Player__
 __Rooms__
 
 * Simply create rooms using tile maps and tile sets (drag and drop)
-* Define spawn locations using tile set metadata
+* Define spawn locations and player start location using tile set metadata
 
 __Terrain__
 
@@ -37,8 +37,9 @@ __Enemies__
     * Health
     * Score
     * Projectile damage
+    * Projectile scale
     * Collision damage
-    * Speed
+    * Movement and Fly Speed
 
 _Enemy movement options_
 
@@ -76,7 +77,7 @@ __Pickups__
 
 __Powerup__
 
-* Easily to add/modify using player statistics and Data Table (see screenshot)
+* Easily to add/modify using player statistics and Data Table
 * Define selection of player statistics and level per statistic
 * Several examples provided
 

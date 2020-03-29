@@ -141,9 +141,8 @@ The Destroy event is used for clean-up.
 
 __Tile Map Room__
 
-BP_TileMapRoom is the default room type used by the Roguelike 2D Game Mode. It defines a playable room using a RoomPair, consisting of a SetupRoom and PlayRoom.   
-The SetupRoom is analyzed and used to spawn all the actors (e.g. enemies, terrain and pickups).   
-Due to a bug in the UE4 Engine (see [FAQ](https://gracesgames.com/Roguelike2DKit/faq/)), the game also uses a PlayRoom to spawn the room which the users see while playing.   
+BP_TileMapRoom is the default room type used by the Roguelike 2D Game Mode. It chooses a room from the PossibleRooms array. 
+The room tile set metadata is analyzed and used to spawn all the actors (e.g. enemies, terrain and pickups), after which it is cleared.
 Users can easily add new playable rooms by creating new Tile Map objects using drag-and-drop. 
 
 ### Terrain
