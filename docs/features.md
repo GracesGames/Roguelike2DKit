@@ -16,7 +16,7 @@ __Player__
 * Fire in straight directions (up, down, left, right)
 * Place bombs
 * God mode
-* Several statistics (e.g. damage, fire rate and movement speed)
+* Several statistics (e.g. damage, fire rate, health and movement speed)
 
 __Rooms__
 
@@ -35,6 +35,7 @@ __Enemies__
 * Define and modify enemy options using enumeration and Data Table
 * Custom property examples:
     * Health
+    * Health regeneration
     * Score
     * Projectile damage
     * Projectile scale
@@ -67,6 +68,7 @@ __Health System__
 * Custom health values
 * Modify maximum health
 * Death state
+* Health regeneration
 
 __Pickups__
 
@@ -97,6 +99,7 @@ __HUD__
     * Current score
     * Enemies killed
     * Rooms cleared
+    * Start new game
     * Return to main menu
     
 * Joystick and buttons (Mobile)
@@ -106,6 +109,7 @@ __Menus__
 
 * Pause menu
     * Continue
+    * Start new game
     * Quit
 * Main menu
     * Start
