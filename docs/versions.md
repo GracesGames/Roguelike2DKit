@@ -10,6 +10,24 @@ permalink: /versions/
 
 Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub issue][github-issue]
 
+### Version 1.2.0
+
+##### Release date: TBD
+
+New features:
+
+* Added health regeneration and extracted HealthOption from BasicOptions
+* Added option to spawn specific enemies based on Tile User Data
+* Added Restart and Start New Game option to HUD
+
+Improvements:
+
+* Reparented Player to Pawn instead of PaperCharacter, allowing more collision shapes
+* Reparented Enemy to Pawn instead of PaperCharacter, allowing more collision shapes
+* Integrated Chase logic into MovementComponent, making ChaseAI obsolete
+* Which traversal issue where it was hard to enter any door and move along walls
+* Fixed animation name issues
+
 ### Version 1.1.0
 
 ##### Release date: 30-03-2020

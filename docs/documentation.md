@@ -14,18 +14,12 @@ __iSpawnable__
 
 Interface implemented by object that are spawned into the room. Used to clean-up all objects on room completion. 
 
-### AI Controllers
-
-__Chase AI__
-
-Enemy AI that makes the enemy pawn fly towards the player location. The goal of the AI is to collide with the player to deal the defined collision damage.
-
 ### Characters
 
-__Character Health__
+__Health Component__
 
 BP_CharacterHealth is the health component used by both the enemy and player. It implements the health system.   
-The health system handles taking damage, changes the maximum health and checking if the character is dead.  
+The health system handles taking damage, changes the maximum health and checking if the character is dead.  Next to that, it handles the health regeneration options.
     
 __Enemy__
 
@@ -168,8 +162,8 @@ Based on the platform the UI is automatically updated.
 __HUD__
 
 The BP_HUD is the in-game user interface and shows the player the current health / maximum health, bombs, keys, and amount of rooms cleared.  
-It also defines the game over screen with the high score, current score, enemies killed, rooms cleared and an option to return to the main menu.  
-The pause menu user interface is also integrated in the HUD and allows the player to continue the game and return to the main menu.
+It also defines the game over screen with the high score, current score, enemies killed, rooms cleared and an option to start a new game or return to the main menu.  
+The pause menu user interface is also integrated in the HUD and allows the player to continue the game, start a new game and return to the main menu.
 
 __Main Menu__
 
