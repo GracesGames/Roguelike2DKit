@@ -19,6 +19,7 @@ New features:
 * Added health regeneration and extracted HealthOption from BasicOptions
 * Added option to spawn specific enemies based on Tile User Data
 * Added Restart and Start New Game option to HUD
+* Added several maps
 
 Improvements:
 
