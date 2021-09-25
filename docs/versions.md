@@ -10,6 +10,14 @@ permalink: /versions/
 
 Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub issue][github-issue]
 
+### Version 1.2.1
+
+##### Release date: TBD
+
+Improvements:
+
+* Improved fire input handling and fixed several projectile firing issues
+
 ### Version 1.2.0
 
 ##### Release date: 19-09-2021
