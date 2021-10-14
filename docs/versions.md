@@ -24,7 +24,7 @@ Improvements:
 
 New features:
 
-* Added health regeneration and extracted HealthOption from BasicOptions
+* Added health regeneration and extracted HealthOptions from BasicOptions
 * Added option to spawn specific enemies based on Tile User Data
 * Added Restart and Start New Game option to HUD
 * Added several maps
@@ -34,7 +34,7 @@ Improvements:
 * Reparented Player to Pawn instead of PaperCharacter, allowing more collision shapes
 * Reparented Enemy to Pawn instead of PaperCharacter, allowing more collision shapes
 * Integrated Chase logic into MovementComponent, making ChaseAI obsolete
-* Which traversal issue where it was hard to enter any door and move along walls
+* Fixed traversal issue where it was hard to enter any door and move along walls
 * Fixed animation name issues
 
 ### Version 1.1.0
@@ -61,7 +61,7 @@ Improvements:
 
 * Fixed issue where player would pick up health even when already at full health.
 * Fixed issue where player would continue to shoot on death.
-* Fixed issue where the Ai would continue on player death.
+* Fixed issue where the AI would continue on player death.
 * Fixed issue where player score could increase when dead.
 
 ### Version 1.0.0
