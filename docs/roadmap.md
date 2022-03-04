@@ -13,10 +13,10 @@ Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub is
 ### Features proposals:
 
 * New tile types: pits, water, spikes, fire and more
-* Currency and Shop functionality
+* Currency and shop functionality
 * Projectile effects like life steal, Damage over Time, etc.
 * Multiple enemy designs
-* Boss Stages
+* Boss stages
 * New camera system
 * Floor generation
 * Visual upgrades and animations
