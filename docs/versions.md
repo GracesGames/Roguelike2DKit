@@ -8,8 +8,6 @@ permalink: /versions/
 
 ***
 
-Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub issue][github-issue]
-
 ### Version 1.2.1
 
 ##### Release date: 26-09-2021
@@ -71,7 +69,4 @@ Improvements:
 * First release
 
 
-[mail]: mailto:gracesgamesbv@gmail.com
-[discord]: https://discord.gg/DBwFAES
-[github-issue]: https://github.com/GracesGames/Roguelike2DKit/issues
 [1-bit]: https://kenney.nl/assets/bit-pack
