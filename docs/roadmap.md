@@ -12,10 +12,14 @@ Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub is
 
 ### Features proposals:
 
-* Additional animations
-* Medals depending on scores
-* Multiple level size support
-* Level generation
+* New tile types: pits, water, spikes, fire and more
+* Currency and Shop functionality
+* Projectile effects like life steal, Damage over Time, etc.
+* Multiple enemy designs
+* Boss Stages
+* New camera system
+* Floor generation
+* Visual upgrades and animations
 
 [mail]: mailto:gracesgamesbv@gmail.com
 [discord]: https://discord.gg/DBwFAES
