@@ -66,7 +66,7 @@ __Health System__
 
 * Shared logic for Player and Enemies
 * Custom health values
-* Modify maximum health
+* Custom armor values
 * Death state
 * Health regeneration
 

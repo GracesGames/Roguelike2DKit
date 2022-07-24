@@ -12,6 +12,7 @@ The Roguelike 2D Kit is an easy to use template for creating top down roguelike 
 
 Supports PC and mobile platforms.  
 Tested on Windows, Mac OS and Android. 
+Full gamepad support.
 
 The template is created using Blueprints and allows easy customization.
  

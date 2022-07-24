@@ -8,6 +8,34 @@ permalink: /versions/
 
 ***
 
+### Version 1.3.0
+
+##### Release date: TBD
+
+New features:
+
+* Added button highlighting option for main menu and HUD
+* Added Armor and God Mode option to the HealthComponent
+
+Improvements:
+
+* Integrated TileMap 'Separation per Layer' value for spawning instead of static value, allowing proper height based setups (e.g. roofs)
+* Extracted Door logic from TileMap to TileMapDoor actor. This allows rooms to have multiple doors. The door positions can be defined in the TileMap using the TileUserData.
+* Made SetupData layer clean-up dynamic using a layer name instead of clearing only the top layer
+* Added TileUserDataToClassMapping and use a DataTable to clean up tile map analysis and spawn point logic
+* Added Room interface making BaseRoom actor obsolete
+
+* Extracted enemy movement collisions to MovementComponent
+* Extracted enemy options initialization to components
+* Extracted enemy GameMode logic to GameMode using interface messages
+* Unified enemy movement speed options into a single value
+* Unified enemy projectile and player projectile to a single projectile with exposed options
+
+* Extracted player movement logic to PlayerMovementComponent
+* Extracted player shooting logic to PlayerShootingComponent
+* Extracted player power up logic to PowerComponent
+* Extracted player key and bomb logic to InventoryComponent
+
 ### Version 1.2.1
 
 ##### Release date: 26-09-2021
