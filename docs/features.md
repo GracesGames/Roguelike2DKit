@@ -26,10 +26,14 @@ __Rooms__
 __Terrain__
 
 * Chests: requires key, provides pick-up
-* Breakable crates, destroyed by bombs
+* Damaging spikes that push the player back
+* Destroyable bushes, destroyed by bombs
+* Destroyable campfires, destroyed by projectiles and bombs
+* Static Candle and Candelabra object with animations
 
 __Enemies__
 
+* Six predefined enemies included
 * Separated functionality over components
 * Easily define component properties using defined options
 * Define and modify enemy options using enumeration and Data Table
@@ -40,7 +44,7 @@ __Enemies__
     * Projectile damage
     * Projectile scale
     * Collision damage
-    * Movement and Fly Speed
+    * Movement speed
 
 _Enemy movement options_
 
@@ -59,8 +63,7 @@ _Enemy shooting options_
 * Melee (no shooting)
 * Shoot facing direction
 * Shoot player position
-* Shoot all straight directions
-* Shoot all diagonal directions
+* Shoot circular pattern
 
 __Health System__
 
@@ -69,6 +72,7 @@ __Health System__
 * Custom armor values
 * Death state
 * Health regeneration
+* Invulnerability window
 
 __Pickups__
 
@@ -85,7 +89,7 @@ __Powerup__
 
 __Items__
 
-* Bombs, damages characters and destroy breakable crates
+* Bombs that damage surrounding actors
 
 __HUD__
 
@@ -123,6 +127,7 @@ __Save Game File__
     
 __Other__
 
+* Example rooms
 * Example animations (Flipbooks)
 * Example sound effects
 * Example game sounds

@@ -66,6 +66,10 @@ __Bomb__
 BP_Bomb is the bomb object that can be placed by the player.   
 It destroys BaseBreakable objects or children of BaseBreakable objects and damages Pawns (e.g. enemies and player). 
 
+__Bomb Damage Type__
+
+BP_BombDamageType is a damage type used to identify bomb damage. This makes sure bushes can only be destroyed by bombs. 
+
 ### Pickups
 
 __Base Pickup__
@@ -159,18 +163,30 @@ Interface implemented by object that are spawned into the room. Used to clean-up
 
 ### Terrain
 
-__Base Breakable__
+__Bush__
 
-BP_BaseBreakable is the parent object for all breakable objects. These objects can be destroyed by the bomb.
+BP_Bush is an example of a destroyable object. It is visually represented as a bush and can only be destroyed by bomb damage.
 
-__Breakable Crate__
+__Campfire__
 
-BP_BreakableCrate is an example of a breakable object. It is visually represented as a create.
+BP_Campfire is another destroyable object but can be damaged by both player projectiles and bombs.
+
+__Candelabra__
+
+BP_Candelabra is a static blocking object with an animation to visually improve the level.
+
+__Candle__
+
+BP_Candle is also a static blocking object with an animation to visually improve the level.
 
 __Chest__
 
 BP_Chest requires a key to be opened. Else it just blocks the player.   
 When opened it spawns a random pickup from a predefined set (e.g. health, key, bomb or powerup).
+
+__Spike__
+
+BP_Spike damages the player on touch and pushes the player away. It cannot be destroyed but it does have a reactivation time.
 
 ### Widgets
 

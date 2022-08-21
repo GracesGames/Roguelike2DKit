@@ -8,6 +8,28 @@ permalink: /versions/
 
 ***
 
+### Version 1.4.0
+
+##### Release date: TBD
+
+New features:
+
+* Added required damage type option to the HealthComponent
+* Added invulnerability window option to the HealthComponent
+* Added Campfire object that can be destroyed by player projectiles and bombs
+* Added Spike object that damages and pushes the player back on touch
+* Added circular pattern option to EnemyShootingOptions
+* Added QuadStraightShooter and QuadDiagonalShooter enemy
+* Added Candles and Candelabra terrain objects with Flipbook animations
+* Added 3 new rooms
+
+Improvements:
+
+* Replaced projectile collision logic with collision object type logic for a cleaner and more maintainable solution
+* Exposed sprite color to EnemyBasicOptions
+* Exposed projectile speed to EnemyShootingOptions
+* Replaced StraightDirections and DiagonalDirections shooting options with CircularPattern option
+
 ### Version 1.3.0
 
 ##### Release date: 24-07-2022
