@@ -10,7 +10,7 @@ permalink: /versions/
 
 ### Version 1.4.0
 
-##### Release date: TBD
+##### Release date: 21-08-2022
 
 New features:
 
