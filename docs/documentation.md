@@ -24,6 +24,8 @@ __Direction Functions__
 
 BP_DirectionFunctionLibrary defines several functions used to manipulate and convert directions. Used for bouncing movement, shooting directions and more.
 
+### Enemies
+
 __Enemy__
 
 BP_Enemy is the generic enemy class. It serves as the base class for all enemy types and can be easily customized using the different property structures and components.    
