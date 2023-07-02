@@ -45,6 +45,14 @@ __Main Menu Game Mode__
 
 BP_MainMenuGameMode is the game mode and specifies the BP_MainMenuPlayerController as default controller. It is used as the game mode in the Main Menu map.
 
+__Roguelike 2D Game Instance Interface__
+
+I_Roguelike2DGameInstance defines abstract events for the game instance to reduce coupling.
+
+__Roguelike 2D Game Instance__
+
+BP_Roguelike2DGameInstance is the game instance and keeps track of the selected art style.
+
 __Roguelike 2D Game Mode Interface__
 
 I_Roguelike2DGameMode defines abstract events for the game mode to reduce coupling.
@@ -68,6 +76,10 @@ __Bomb__
 BP_Bomb is the bomb object that can be placed by the player.   
 It destroys BaseBreakable objects or children of BaseBreakable objects and damages Pawns (e.g. enemies and player). 
 
+__Bomb Cartoon__
+
+BP_Bomb_Cartoon is the cartoon style version of BP_Bomb.
+
 __Bomb Damage Type__
 
 BP_BombDamageType is a damage type used to identify bomb damage. This makes sure bushes can only be destroyed by bombs. 
@@ -82,9 +94,17 @@ __Bomb Pickup__
 
 BP_BombPickup is a pickup that adds one bomb to the player.
 
+__Bomb Pickup Cartoon__
+
+BP_BombPickup_Cartoon is the cartoon style version of BP_BombPickup.
+
 __Health Pickup__
 
 BP_HealthPickup is a pickup that adds a set amount of health to the player.
+
+__Health Pickup Cartoon__
+
+BP_HealthPickup_Cartoon is the cartoon style version of BP_HealthPickup.
 
 __Pickup Interface__
 
@@ -94,9 +114,17 @@ __Key Pickup__
 
 BP_KeyPickup is a pickup that adds one key to the player.
 
+__Key Pickup Cartoon__
+
+BP_KeyPickup_Cartoon is the cartoon style version of BP_KeyPickup.
+
 __Powerup Pickup__
 
 BP_PowerupPickup is a pickup that chooses a random powerup and on pickup upgrades the player using the chosen powerup. 
+
+__Powerup Pickup Cartoon__
+
+BP_PowerupPickup_Cartoon is the cartoon style version of BP_PowerupPickup.
 
 ### Player
 
@@ -145,6 +173,10 @@ __Tile Map Door__
 
 BP_TileMapDoor keeps the player in the room and let the player progress when all enemies are dead. 
 
+__Tile Map Door Cartoon__
+
+BP_TileMapDoor_Cartoon is the cartoon style version of BP_TileMapDoor.
+
 __Tile Map Room__
 
 BP_TileMapRoom is the default room type used by the Roguelike 2D Game Mode. It chooses a room from the PossibleRooms array. 
@@ -169,6 +201,10 @@ __Bush__
 
 BP_Bush is an example of a destroyable object. It is visually represented as a bush and can only be destroyed by bomb damage.
 
+__Barrel Cartoon__
+
+BP_Barrel is a cartoon style version of BP_Bush.
+
 __Campfire__
 
 BP_Campfire is another destroyable object but can be damaged by both player projectiles and bombs.
@@ -186,9 +222,25 @@ __Chest__
 BP_Chest requires a key to be opened. Else it just blocks the player.   
 When opened it spawns a random pickup from a predefined set (e.g. health, key, bomb or powerup).
 
+__Chest Cartoon__
+
+BP_Chest_Cartoon is the cartoon style version of BP_Chest.
+
+__Crate Cartoon__
+
+BP_Crate_Cartoon is a cartoon style version of BP_Bush.
+
 __Spike__
 
 BP_Spike damages the player on touch and pushes the player away. It cannot be destroyed but it does have a reactivation time.
+
+__Spike Cartoon__
+
+BP_Spike_Cartoon is a cartoon style version of BP_Spike.
+
+__Target Cartoon__
+
+BP_Target_Cartoon is a cartoon style version of BP_Campfire.
 
 ### Widgets
 

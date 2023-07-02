@@ -12,7 +12,7 @@ Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub is
 
 ### Feature proposals:
 
-* New tile types: pits, water, spikes, fire and more
+* New tile types: pits, water, fire and more
 * Currency and shop functionality
 * Projectile effects like life steal, Damage over Time, etc.
 * Multiple enemy designs

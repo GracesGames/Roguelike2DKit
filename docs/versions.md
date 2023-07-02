@@ -8,6 +8,14 @@ permalink: /versions/
 
 ***
 
+### Version 1.5.0
+
+##### Release date: TBD
+
+New features:
+
+* Added cartoon art style and style selection option in main menu
+
 ### Version 1.4.0
 
 ##### Release date: 21-08-2022
