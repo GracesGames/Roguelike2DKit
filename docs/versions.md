@@ -10,7 +10,7 @@ permalink: /versions/
 
 ### Version 1.5.0
 
-##### Release date: TBD
+##### Release date: 03-07-2023
 
 New features:
 
