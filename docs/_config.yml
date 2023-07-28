@@ -23,8 +23,6 @@ author: Graces Games
 email: GracesGamesBV@gmail.com
 github_username:  GracesGames
 
-google_analytics: UA-99027396-12
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
