@@ -21,7 +21,7 @@ url: "https://gracesgames.com" # the base hostname & protocol for your site, e.g
 
 author: Graces Games
 email: GracesGamesBV@gmail.com
-github_username:  GracesGames
+github_username: GracesGames
 
 # Build settings
 markdown: kramdown
