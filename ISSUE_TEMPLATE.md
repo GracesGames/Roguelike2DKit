@@ -6,9 +6,9 @@ Please attach the label accordingly
 
 Which version of the Roguelike 2D Kit is used?
 
-### Unreal Engine 4 version
+### Unreal Engine version
 
-Which version of Unreal Engine 4 is used?
+Which version of Unreal Engine is used?
 
 ### Screenshot(s)
 

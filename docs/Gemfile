@@ -27,3 +27,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Webrick was loaded from the standard library, but is not part of the default gems since Ruby 3.0.0
+gem 'webrick'

@@ -8,7 +8,7 @@ permalink: /roadmap/
 
 ***
 
-Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub issue][github-issue]
+Want more? Join the [Discord][discord] or send an [email][mail]
 
 ### Feature proposals:
 
@@ -21,6 +21,5 @@ Want more? Send an [email][mail], join [Discord][discord] or create a [GitHub is
 * Floor generation
 * Visual upgrades and animations
 
+[discord]: https://discord.gg/DnNyEMKWca
 [mail]: mailto:gracesgamesbv@gmail.com
-[discord]: https://discord.gg/CdBFgFzH
-[github-issue]: https://github.com/GracesGames/BlockBreaker2DKit/issues
