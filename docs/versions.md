@@ -10,7 +10,7 @@ permalink: /versions/
 
 ### Version 1.6.0
 
-##### Release date: under review
+##### Release date: 11-08-2024
 
 New features:
 
