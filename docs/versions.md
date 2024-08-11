@@ -8,6 +8,20 @@ permalink: /versions/
 
 ***
 
+### Version 1.6.0
+
+##### Release date: under review
+
+New features:
+
+* Integrated [Interactive Tile Map](https://gracesgames.com/InteractiveTileMap/) version 1.0.0
+
+Improvements:
+
+* HUD images now updates based on chosen art style
+* Fixed issue where enemy projectiles could cause warnings in output log
+* Fixed issue where sprites where not always properly overridden
+
 ### Version 1.5.0
 
 ##### Release date: 03-07-2023
