@@ -8,6 +8,14 @@ permalink: /versions/
 
 ***
 
+### Version 1.6.1
+
+##### Release date: under review
+
+Improvements:
+
+* Updated [Interactive Tile Map](https://gracesgames.com/InteractiveTileMap/) to version 1.0.1
+
 ### Version 1.6.0
 
 ##### Release date: 11-08-2024
