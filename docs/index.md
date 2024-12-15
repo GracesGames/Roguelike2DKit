@@ -6,7 +6,7 @@ layout: default
 
 <iframe src="https://widgets.gamejolt.com/package/v1?key=i2dzMirW&theme=light" frameborder="0" width="100%" height="170"></iframe>  
 <br/>
-Available in the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/roguelike-2d-kit){:target="_blank"}{:rel="noreferrer"}
+Available on [Fab](https://www.fab.com/listings/5a047a3e-c7fb-4857-85cb-0cac226a1a95){:target="_blank"}{:rel="noreferrer"}
 
 The Roguelike 2D Kit is an easy to use template for creating top down roguelike type of games in 2D!
 

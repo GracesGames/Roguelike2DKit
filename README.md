@@ -1,12 +1,12 @@
 # Roguelike 2D Kit for Unreal Engine
 
 <p align="center">
-	<a href="https://www.unrealengine.com/marketplace/roguelike-2d-kit" rel="noreferrer" target="_blank">Marketplace</a> |
+	<a href="https://www.fab.com/listings/5a047a3e-c7fb-4857-85cb-0cac226a1a95" rel="noreferrer" target="_blank">Fab</a> |
 	<a href="https://gamejolt.com/games/roguelike-2d-kit/379193" rel="noreferrer" target="_blank">Demo</a> |
   	<a href="https://gracesgames.com/Roguelike2DKit/" rel="noreferrer" target="_blank">Website</a>
 </p>
 
-Available in the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/roguelike-2d-kit)
+Available on [Fab](https://www.fab.com/listings/5a047a3e-c7fb-4857-85cb-0cac226a1a95)
 
 The Roguelike 2D Kit is an easy to use template for creating top down roguelike type of games in 2D!
  
