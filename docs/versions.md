@@ -28,7 +28,7 @@ Improvements:
 
 * HUD images now update based on chosen art style
 * Fixed issue where enemy projectiles could cause warnings in output log
-* Fixed issue where sprites where not always properly overridden
+* Fixed issue where sprites were not always properly overridden
 
 ### Version 1.5.0
 
